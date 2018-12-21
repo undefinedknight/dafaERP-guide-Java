@@ -29,7 +29,8 @@
 		"versions-select",
 		"html5-video",
 		"ace",
-		"exercises"
+		"exercises",
+		"github-buttons"
 	],
 	"pluginsConfig": {
 		"fontsettings": {
@@ -58,7 +59,8 @@
           "wechatText": "微信打赏"
         },
 		"anchor-navigation-ex": {
-            "multipleH1": false
+            "multipleH1": false,
+			"showLevel" : false
         },
 		"favicon": {
 			"shortcut": "/images/favicon/favicon.ico"
@@ -68,13 +70,19 @@
 				{
 					"value": "http://localhost:4000",
 					"text": "v3.2.3"
-				},
-				{
-					"value": "http://localhost:5000",
-					"text": "v2.6.9"
 				}
 			]
+		},
+		"github-buttons": {
+			 "buttons": [{
+				"user": "ks4na",
+				"repo": "dafaERP-guide-Java",
+				"type": "star",
+				"size": "small",
+				"count": true
+			  }]
 		}
+
 	}
 	
 }

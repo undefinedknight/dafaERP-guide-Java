@@ -6,7 +6,7 @@
 
 
 
-###步骤
+##步骤
 
 1. 定义一个url用于访问该页面，此处的路径是 `/receivables-report/state-date-import `,（ 这段路径中一级路径 `/receivables-report ` 是“应收账款报表”的路径，二级路径 `/state-date-import` 对应“应收款状态日期录入”二级菜单）；
 
@@ -28,7 +28,7 @@
 
       ![pic-5](../images/createPage-pic5.png)
 
-       这里，`rrStateAndDateImport ` 文件夹下面的文件，一个jsp页面对应三个js文件，这是前端页面的开发规范，`controller.js`  为页面中的元素添加事件，`reaction.js` 存放事件的具体逻辑， `model.js` 存放数据模型，定义的全局变量等等（代码中很多地方没有遵守该规范，嫌麻烦也可以不创建 `model.js`）；
+      这里，`rrStateAndDateImport ` 文件夹下面的文件，一个jsp页面对应三个js文件，这是前端页面的开发规范，`controller.js`  为页面中的元素添加事件，`reaction.js` 存放事件的具体逻辑， `model.js` 存放数据模型，定义的全局变量等等（代码中很多地方没有遵守该规范，嫌麻烦也可以不创建 `model.js`）；
 
 7. `init.jsp` 文件结构有固定的格式，**开发新页面时基于一个类似的页面修改即可**：
 

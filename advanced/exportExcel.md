@@ -4,7 +4,7 @@
 
 
 
-### 步骤
+## 步骤
 
 1.  在 `init.jsp` 页面中定义一个 `form` 用于导出，将一些必要的字段放入 `form` 中隐藏域，将页面的数据 `dataList` 转为JSON字符串也放入 `form` 中某个隐藏域（这里是 `exportDataList` 字段）。
 
