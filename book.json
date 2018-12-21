@@ -1,0 +1,80 @@
+{
+	"title": "大发ERP系统Java开发参考手册",
+	"author": "_yuusha",
+	"description": "记录我从接手之前的项目继续开发到现在，遇到的一些经验的总结...",
+	"gitbook": ">=3.0.0",
+	"links" : {
+		"sidebar" : {
+			"码梦人" : "http://m.yumecoder.top"
+		}
+	},
+	"styles": {
+		"website": "styles/website.css",
+		"ebook": "styles/ebook.css",
+		"pdf": "styles/pdf.css",
+		"mobi": "styles/mobi.css",
+		"epub": "styles/epub.css"
+	},
+	"plugins": [
+		"-lunr",
+		"-search",
+		"search-plus",
+		"splitter",
+		"-sharing",
+		"sharing-plus",
+		"tbfed-pagefooter",
+		"donate",
+		"anchor-navigation-ex",
+		"favicon",
+		"versions-select",
+		"html5-video",
+		"ace",
+		"exercises"
+	],
+	"pluginsConfig": {
+		"fontsettings": {
+			"theme": "white",
+			"family": "sans",
+			"size": 2
+		},
+		"sharing": {
+			"qq": true,
+			"weibo": true,
+			"qzone": true,
+			"google": true,
+			"all": ["facebook", "google", "twitter", "weibo", "qq", "qzone"]
+		},
+		"tbfed-pagefooter": {
+			"copyright": "Copyright &copy; yumecoder.top 2018",
+			"modify_label": "最后修改时间：",
+			"modify_format": "YYYY-MM-DD HH:mm:ss"
+		},
+		"donate": {
+          "wechat": "/images/donation_img/wechat_qr.png",
+          "alipay": "/images/donation_img/alipay_qr.jpg",
+          "title": "",
+          "button": "赏",
+          "alipayText": "支付宝打赏",
+          "wechatText": "微信打赏"
+        },
+		"anchor-navigation-ex": {
+            "multipleH1": false
+        },
+		"favicon": {
+			"shortcut": "/images/favicon/favicon.ico"
+		},
+		"versions": {
+			"options": [
+				{
+					"value": "http://localhost:4000",
+					"text": "v3.2.3"
+				},
+				{
+					"value": "http://localhost:5000",
+					"text": "v2.6.9"
+				}
+			]
+		}
+	}
+	
+}
