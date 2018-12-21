@@ -30,7 +30,9 @@
 		"html5-video",
 		"ace",
 		"exercises",
-		"github-buttons"
+		"github-buttons",
+		"alerts",
+		"edit-link"
 	],
 	"pluginsConfig": {
 		"fontsettings": {
@@ -81,7 +83,11 @@
 				"size": "small",
 				"count": true
 			  }]
-		}
+		},
+		"edit-link": {
+            "base": "https://github.com/ks4na/dafaERP-guide-Java/edit/master",
+            "label": "Edit This Page"
+        }
 
 	}
 	

@@ -6,7 +6,7 @@
 
 
 
-##步骤
+## 步骤
 
 1. 定义一个url用于访问该页面，此处的路径是 `/receivables-report/state-date-import `,（ 这段路径中一级路径 `/receivables-report ` 是“应收账款报表”的路径，二级路径 `/state-date-import` 对应“应收款状态日期录入”二级菜单）；
 

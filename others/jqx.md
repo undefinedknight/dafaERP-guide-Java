@@ -1,6 +1,8 @@
 # jQWidgets使用 
 
-Demo页官网地址：https://www.jqwidgets.com/jquery-widgets-demo
+> **[info] 官网Demo地址**
+>
+> https://www.jqwidgets.com/jquery-widgets-demo
 
 ![pic-1](../images/jqx-pic1.png)
 
