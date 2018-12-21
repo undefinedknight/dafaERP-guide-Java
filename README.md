@@ -6,55 +6,5 @@
 
 编写这篇GITBOOK主要是为了方便之后的Java开发人员，有案例可循，算是一个开发参考手册吧。 
 
-use advancedEmoji to print a smile: 😄 😭
 
-<video src="../videos/言叶之庭 OST.mp4" width="100%" controls="controls" poster="../videos/言叶之庭Cover.jpg"></video>
-
-
-{%ace edit=false, lang='javascript',theme="monokai"%}
-function querySearchData(field, from, to, xmwbs){
-    var conditions = new Array()
-    if(field){
-        var condition = createOneCondition("FIELD", field, "EQ")
-        conditions.push(condition)
-    }
-    if(from){
-        var condition = createOneCondition("FROM", from, "EQ")
-        conditions.push(condition)
-    }
-    if(to){
-        var condition = createOneCondition("TO", to, "EQ")
-        conditions.push(condition)
-    }
-    if(xmwbs){
-        var condition = createOneCondition("XMWBS", xmwbs, "EQ")
-        conditions.push(condition)
-    }
-    var condition = createCondition(conditions)
-    var param = {
-        item: JSON.stringify(condition)
-    }
-
-    // 封装好的请求方式，该请求方式会添加loading状态显示
-    callAjax($("#basePath").val() + "receivables-report/fetchSearchData", "POST", param, function(res){
-    //some code…      
-    })
-}
-{%endace%}
-
-{% exercise %}
-Define a variable `x` equal to 10.
-{% initial %}
-var x =
-{% solution %}
-var x = 10;
-{% validation %}
-assert(x == 10);
-{% context %}
-// This is context code available everywhere
-// The user will be able to call magicFunc in his code
-function magicFunc() {
-    return 3;
-}
-{% endexercise %}
 
