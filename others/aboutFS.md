@@ -1,6 +1,6 @@
 # 关于FS 
 
->  **[info] FS**  
+>  **[info] FS的含义 **  
 >
 >  functional specification（功能说明），是一个Excel形式的文件。 
 
