@@ -60,7 +60,7 @@
 
 然后切换到 `Deployment` 页签，将 `Application context` 改为 `/house`， 如下图。
 
-> [warning] 提示
+> **[warning] 提示**
 >
 > 这里最好改一下，因为原来的代码中有块公用的代码把根路径写死为 `/house` 了，这里不改的话在本地打开 包含那一块代码的页面时 会有错误。
 
