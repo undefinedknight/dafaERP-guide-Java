@@ -5,7 +5,7 @@
 	"gitbook": "=3.2.3",
 	"links" : {
 		"sidebar" : {
-			"码梦人" : "http://m.yumecoder.top"
+			
 		}
 	},
 	"styles": {
@@ -70,7 +70,7 @@
 		"versions": {
 			"options": [
 				{
-					"value": "http://localhost:4000",
+					"value": "http://dafa.yumecoder.top",
 					"text": "v3.2.3"
 				}
 			]
