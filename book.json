@@ -2,6 +2,7 @@
 	"title": "大发ERP系统Java开发参考手册",
 	"author": "_yuusha",
 	"description": "记录我从接手之前的项目继续开发到现在，遇到的一些经验的总结...",
+	"language": "zh-hans",
 	"gitbook": "=3.2.3",
 	"links" : {
 		"sidebar" : {
